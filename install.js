@@ -11,7 +11,10 @@ module.exports = {
     {
       method: "shell.run",
       params: {
-        message: "conda install -y -c conda-forge huggingface_hub portaudio"
+        message: [
+          "conda update -y -c conda-forge hugginface_hub",
+          "conda install -y -c conda-forge portaudio"
+        ]
       }
     },
     {
