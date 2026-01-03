@@ -38,7 +38,7 @@ module.exports = {
         path: "app",
         message: [
           "uv pip install -e . --no-cache",
-          "uv pip install cachetools livekit==0.18.1 livekit-agents==0.12.1"
+          "uv pip install cachetools livekit==0.18.1 livekit-agents==0.12.1 gradio==5.50.0"
         ]
       }
     },
